@@ -3,10 +3,7 @@
 
 body {
     margin: 0;
-    /*background-image: url(imagens/Fundo_site.png);*/
-    background-color: white;
-
-
+    background-image: url(imagens/Fundo_site1.0.png);
 }
 
 header {
@@ -150,8 +147,8 @@ label[for='bt_menu']:hover {
     height: 1050px;
     margin: auto;
     padding: 15px;
-    background-color: black;
-    /*box-shadow: 0.3em 0.3em 0.05em #8f1d1d; border: 2px solid #8f1d1d; */
+    background-color: white;
+    border: 2px solid #8f1d1d;
     box-shadow: 0 0 1em #696969;
     margin-top: 30px;
     overflow: auto;
@@ -159,24 +156,17 @@ label[for='bt_menu']:hover {
 
 h1 {
     text-align: center;
-    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-size: clamp(1em, 1em + 1vw, 1.9em);
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 
 }
 
-/*#text {
-    font-size: clamp(1em, 1em + 1vw, 1.3em);
-    text-align: justify;
-    font-family: 'Roboto Slab', serif;
-    color: black;
-
-} */
 #text {
     font-size: clamp(1em, 1em + 1vw, 1.3em);
     text-align: justify;
     font-family: 'Roboto Slab', serif;
-    color: #DCDCDC;
+    color: black;
 
 }
 
@@ -190,7 +180,7 @@ div.box {
     width: 60px;
     display: inline-block;
     cursor: pointer;
- 
+
 }
 
 .left {
@@ -205,13 +195,13 @@ div.box {
     font-family: 'Oswald', sans-serif;
     color: #363636;
     padding: 3px;
-    
+
 }
 
 .menu_footer ul {
     display: flex;
     list-style-type: none;
-    
+  
 }
 
 .menu_footer ul li {
@@ -221,8 +211,8 @@ div.box {
 
 .menu_footer a {
     text-decoration: none;
-    font-size: 20px;
-    color:	#C0C0C0;
+    font-size: clamp(1em, 1em + 1vw, 1.3em);
+    color: #C0C0C0;
     font-weight: bolder;
 }
 
