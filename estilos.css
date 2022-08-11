@@ -224,32 +224,36 @@ div.box {
 label {
     color: whitesmoke;
     text-align: center;
+
 }
 
 input {
     color: black;
+
+
 }
 
 #textContato {
     font-family: 'Oswald', sans-serif;
-    font-size: clamp(1em, 1em + 1vw, 1.1em);
+    font-size: clamp(1em, 1em + 1vw, 1em);
     color: #C0C0C0;
 
 }
 
 .forms {
     background-color: #1C1C1C;
-    padding: 20px 50px;
+    padding: 20px 30px;
     box-shadow: 0 0 2em #C0C0C0;
 
-    @media screen and (max-width: 500px) {
-        width: 300px;
-        height: 350px;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+
     }
 }
 
 #textAreaMensagem {
     color: black;
+
 }
 
 h2 {
@@ -258,6 +262,13 @@ h2 {
     color: white;
 }
 
-button{
-    color: #1C1C1C;
+button {
+    color: black;
+    padding: 10px 10px;
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #C0C0C0;
+    text-shadow: 0 0 4px #fff;
 }
