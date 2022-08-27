@@ -6,6 +6,7 @@ body {
     background-image: url(imagens/Fundo_site1.0.png);
 }
 
+/*cabeçalho e menu*/
 header {
     width: 100%;
     height: 30%;
@@ -138,6 +139,7 @@ label[for='bt_menu']:hover {
     }
 }
 
+/*corpo da página*/
 #main {
     padding: 80px 0;
 }
@@ -159,7 +161,7 @@ label[for='bt_menu']:hover {
     font-size: clamp(1em, 1em + 1vw, 1.9em);
     font-family: Arial, Helvetica, sans-serif;
     color: #800000;
-    
+
 }
 
 #text {
@@ -170,6 +172,7 @@ label[for='bt_menu']:hover {
 
 }
 
+/*rodapé */
 footer {
     background-color: black;
     padding: 50px;
@@ -220,6 +223,8 @@ div.box {
     text-shadow: 0 0 4px #fff;
 
 }
+
+/*formulário*/
 
 label {
     color: whitesmoke;
@@ -274,10 +279,13 @@ button:hover {
     text-shadow: 0 0 4px #fff;
 }
 
-img{
+/*destaques da página*/
+
+#destaques {
     max-width: 100%;
-   }
-   .bloco {
+}
+
+.bloco {
     width: 250px;
     height: 150px;
     margin: 15px;
@@ -285,12 +293,39 @@ img{
     cursor: pointer;
     display: inline-block;
     text-align: center;
-   }
-   .bloco img{
+}
+
+.bloco #destaques {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-   }
-   .bloco img:hover {
+}
+
+.bloco #destaques:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+div.box {
+    width: 150px;
+    display: inline-block;
+}
+
+#autores {
+    width: 90%;
+    height: 170%;
+    border: 2px solid #800000;
+    border-radius: 50%;
+}
+
+span {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    padding: 3px 8px;
+}
+
+
+.autor{
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
 }
