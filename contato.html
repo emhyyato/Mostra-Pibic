@@ -7,12 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daily Series</title>
   <link rel="stylesheet" href="estilos.css" />
-  <link rel="icon" href="imagens/icondaily.ico">
   <script type="text/javascript" src="js.js"></script>
+  <link rel="icon" href="imagens/icondaily.ico">
 
 </head>
 
-<body>
+<body onload="showDivs(1)">
   <!--Cabeçalho-->
   <header>
     <div id="hearder_titulo" class="center">
@@ -64,8 +64,8 @@
         </ul>
       <li><a href="#">Guerras</a>
         <ul class="submenu">
-          <li><a href="#">1º Guerra Mundial</a>
-          <li><a href="#">2º Guerra Mundial</a>
+          <li><a href="primeiraguerramundial.html">1º Guerra Mundial</a>
+          <li><a href="segundaguerramundial.html">2º Guerra Mundial</a>
           <li><a href="#">Guerra fria</a>
         </ul>
       </li>
@@ -74,15 +74,15 @@
   </nav>
 
   <!--Conteudo e textos-->
-
   <main id="main">
     <section id="content">
       <div id="container">
         <h1 id="titulo">CONTATOS</h1>
         <br><br>
 
-        <div class="forms">
-          <form action="https://api.staticforms.xyz/submit" method="post">
+        <div class="center">
+          <div class="forms">
+            <form action="https://api.staticforms.xyz/submit" method="post">
 
               <h2>Contato</h2>
               <br>
@@ -107,9 +107,10 @@
               <textarea name="message" id="textAreaMensagem" required maxlength="100"></textarea>
               <span></span>
               <br>
-
               <button>Enviar</button>
-          </form>
+            </form>
+          </div>
+
         </div>
       </div>
     </section>
@@ -127,19 +128,20 @@
     <br>
     <div class="left">
       <div class="row">
-        <div class="box">
-          <img src="imagens/gmail.png" aligin="top">
+        <div class="boxz">
+          <img id="imagem_footer" src="imagens/gmail.png" aligin="top">
         </div>
-        <div class="box">
-          <img src="imagens/github.png">
+        <div class="boxz">
+          <img id="imagem_footer" src="imagens/github.png">
         </div>
-        <div class="box">
-          <img src="imagens/instagram.png">
+        <div class="boxz">
+          <img id="imagem_footer" src="imagens/instagram.png">
         </div>
       </div>
       <p id="text_footer">Daily Series &copy; 2022</p>
     </div>
   </footer>
+
 
 
 </body>

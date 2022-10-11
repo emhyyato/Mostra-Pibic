@@ -249,6 +249,7 @@ input {
     background-color: #1C1C1C;
     padding: 20px 30px;
     box-shadow: 0 0 2em #C0C0C0;
+    text-align: left;
 
     @media screen and (max-width: 480px) {
         width: 100%;
@@ -260,11 +261,13 @@ input {
     color: black;
 
 }
-textarea{
+
+textarea {
     height: 5em;
 }
 
-input, textarea{
+input,
+textarea {
     width: 300px;
     box-sizing: border-box;
 }
@@ -287,11 +290,12 @@ button:hover {
     text-shadow: 0 0 4px #fff;
 }
 
- .forms{
+.forms {
     display: inline-block;
-    
-   
+
+
 }
+
 
 /*destaques da página*/
 
@@ -350,7 +354,8 @@ span {
     border: solid 3px;
     color: #000000;
 }
-#conteudo{
+
+#conteudo {
     font-size: clamp(1em, 1em + 1vw, 1.3em);
     text-align: justify;
     font-family: 'Roboto Slab', serif;
@@ -358,11 +363,17 @@ span {
     overflow: auto;
 
 }
-.imagem_conteudo{
-    display:inline-block;
-    vertical-align:top;
-}
-.texto_principal{
-    display:inline-block;
+
+.imagem_conteudo {
+    display: inline-block;
+    vertical-align: top;
 }
 
+.texto_principal {
+    display: inline-block;
+}
+
+/* centralizando formulário */
+.center {
+    text-align: center;
+}
